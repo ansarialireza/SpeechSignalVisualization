@@ -77,13 +77,13 @@ Plots and optionally saves the audio waveform using matplotlib.
 ```python
 if __name__ == "__main__":
     audio_processor = AudioProcessor()
-    duration = 3
+    duration = 5
     recorded_audio = audio_processor.record_audio(duration)
     audio_processor.play_audio(recorded_audio)
     audio_processor.plot_audio_waveform(recorded_audio)
 ```
 
-This script records audio for 3 seconds, plays it back, and plots the waveform.
+This script records audio for 5 seconds, plays it back, and plots the waveform.
 
 The waveform image (`audio_waveform.png`) is saved in the same directory as the script and displayed below:
 

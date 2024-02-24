@@ -47,7 +47,7 @@ class AudioProcessor:
 
 if __name__ == "__main__":
     audio_processor = AudioProcessor()
-    duration = 3
+    duration = 5
     recorded_audio = audio_processor.record_audio(duration)
     audio_processor.play_audio(recorded_audio)
     audio_processor.plot_audio_waveform(recorded_audio)
