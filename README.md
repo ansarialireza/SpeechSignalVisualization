@@ -85,7 +85,11 @@ if __name__ == "__main__":
 
 This script records audio for 3 seconds, plays it back, and plots the waveform.
 
-The waveform image (`audio_waveform.png`) is saved in the same directory as the script. You can find the visual representation of the recorded audio waveform in this image.
+The waveform image (`audio_waveform.png`) is saved in the same directory as the script and displayed below:
+
+![Audio Waveform](audio_waveform.png)
+
+You can find the visual representation of the recorded audio waveform in this image.
 
 ## License
 
